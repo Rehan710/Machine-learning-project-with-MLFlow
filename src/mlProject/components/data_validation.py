@@ -24,7 +24,7 @@ class DataValidation:
                 else:
                     validation_status = True
                     with open(self.config.STATUS_FILE, 'w') as file:
-                        file.write("All columns are present in schema")
+                        file.write("Status: True")
 
             return validation_status
 
